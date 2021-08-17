@@ -19,7 +19,7 @@ function Header() {
                         <LinkContainer to="/about">
                             <Nav.Link>About Me</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/portfolio">
+                        <LinkContainer to="/projects">
                             <Nav.Link>Portfolio</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="resume">
