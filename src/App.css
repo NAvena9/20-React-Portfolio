@@ -2,7 +2,7 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1 0 auto;
-  background-color: #f9efd8;
+  background-color: #d1d0cd;
   font-family: 'Lato', sans-serif;
   min-height: 90vh;
 }
@@ -13,26 +13,27 @@ main {
 .copyright {
   margin: auto;
 }
-.terminal {
-  height: 100vh;
-}
+
 /* ----------------------------------------------------------------------------- */
 
 
 /* Text Styles */
 a {
-  color: #5486c0;
+  color: #2066b7;
 }
 a:hover, .form-message {
-  color: #dc5a26;
+  color: #51dc26;
   text-decoration: none;
 }
 h1, h3, h4 {
   font-family: 'Roboto Mono', monospace;
 }
+
+
 h3, h4 {
-  color: #dc5a26;
+  color: #080cc8;
   padding-bottom: 16px;
+  font-weight: 600;
 }
 ul.no-bullets {
   list-style-type: none;
@@ -45,9 +46,17 @@ ul.no-bullets {
 /* ----------------------------------------------------------------------------- */
 
 
+/* Nav Styles */
+.navbar-brand {
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 0px;
+}
+/* ----------------------------------------------------------------------------- */
+
+
 /* Jumbotron Style */
 .jumbotron {
-  background-color: #78909c;
+  background-color: #2f7ba1;
   color: #ffffff;
 }
 .jumbotron .col {
@@ -58,23 +67,15 @@ ul.no-bullets {
 }
 /* ----------------------------------------------------------------------------- */
 
-/* Nav Styles */
-.navbar-brand {
-  font-family: 'Roboto Mono', monospace;
-  padding-top: 0px;
-}
-/* ----------------------------------------------------------------------------- */
-
-
 
 /* Button Styles */
 .btn {
-  background-color: #E0A62D;
-  border: 3px solid #E0A62D;
+  background-color: #064edee1;
+  border: 1px solid #064edee1;
 }
 .btn:hover, .btn:active {
-  background-color: #dc5a26;
-  border: 3px solid #dc5a26;
+  background-color: #1ac022;
+  border: 3px solid #1ac022;
 }
 /* ----------------------------------------------------------------------------- */
 

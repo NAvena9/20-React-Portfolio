@@ -22,7 +22,7 @@ function About() {
                         </Col>
                         <Col className="pl-md-5">
                             <h1 className="display-4 text-center text-lg-left text-light p-0-lg pt-4">
-                                Hi Y'all!</h1>
+                                Hola!</h1>
                             <p className="text-dark text-center text-md-left h3">
                                 I'm Nicolas, a Software QA and Full-Stack Web Developer based in Houston.
                             </p>
@@ -32,16 +32,13 @@ function About() {
             </Jumbotron>
 
             <Container fluid className="shadow mb-5 bg-light">
-                <Container className="p-5">
+                <Container className="p-5 text-justify">
                     <h3>About Me</h3>
                     <p>
                     Hi! I’m an engineer, a team player, a full-stack software developer, with a background in customer service, OG drilling technologies and applications, with proven experience delivering client satisfaction through technical know-how and leadership.
                     </p>
                     <p>
-                    Passionate about learning and known as a creative thinker, I got a certificate in full-stack development and I would never have thought that the conjunction of developing solutions for everyday living, solving complex problems and design-thinking were going to make me fall in love with coding.
-                    </p>
-                    <p>
-                    In my current role as Software QA. With my set of skills and experience I am planning on venturing to smart, automatic and integrated software systems.
+                    Passionate about learning and known as a creative thinker, I got a certificate in full-stack development and I would never have thought that the conjunction of developing solutions for everyday living, solving complex problems and design-thinking were going to make me fall in love with coding. In my current role as Software QA. With my set of skills and experience I am planning on venturing to smart, automatic and integrated software systems.
                     </p>
                 </Container>
             </Container>

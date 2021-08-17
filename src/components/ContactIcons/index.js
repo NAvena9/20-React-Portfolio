@@ -10,7 +10,7 @@ function ContactIcons() {
         },
         {
             "name": "linkedin",
-            "url": "https://www.linkedin.com/in/vanessa-lane/",
+            "url": "https://www.linkedin.com/in/nicolas-cedano-avena-55a04043/",
             "classes": "fab fa-linkedin"
         },
         {

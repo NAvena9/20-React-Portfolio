@@ -50,13 +50,13 @@ function ContactForm() {
     return (
         <Form onSubmit={sendEmail} id="contactForm">
             <Form.Group controlId="name">
-                <Form.Label>Your Name</Form.Label>
-                <Form.Control required name="name" placeholder="Jane Doe" onBlur={handleChange} />
+                <Form.Label>Name</Form.Label>
+                <Form.Control required name="name" placeholder="Input your name" onBlur={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="email">
-                <Form.Label>Your Email</Form.Label>
-                <Form.Control required name="email" type="email" placeholder="jdoe@gmail.com" onBlur={handleChange} />
+                <Form.Label>Email</Form.Label>
+                <Form.Control required name="email" type="email" placeholder="Input your email" onBlur={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="subject">
