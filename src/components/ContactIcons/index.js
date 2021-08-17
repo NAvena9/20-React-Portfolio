@@ -15,7 +15,7 @@ function ContactIcons() {
         },
         {
             "name": "github",
-            "url": "https://www.linkedin.com/in/nicolas-cedano-avena-55a04043/",
+            "url": "https://github.com/NAvena9",
             "classes": "fab fa-github"
         },
         {
