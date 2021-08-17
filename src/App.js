@@ -7,12 +7,11 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import Terminal from './pages/Terminal';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import NoMatch from './pages/NoMatch';
 //Styles
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-typist/dist/Typist.css';
 import './App.css';
 
