@@ -66,7 +66,7 @@ function Projects() {
         }
     ]
     return (
-        <>
+        <div>
             <Jumbotron fluid className="p-5 mb-0 shadow">
                 <Container className="text-center">
                     <div className="p-md-5">
@@ -86,7 +86,7 @@ function Projects() {
                     })}
                 </Row>
             </Container>
-        </>
+        </div>
     )
 }
 

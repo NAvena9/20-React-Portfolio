@@ -11,7 +11,7 @@ import ContactForm from '../components/ContactForm';
 //Defining the Contact Form Component
 function Contact() {
     return (
-        <>
+        <div>
             <Jumbotron fluid className="p-5 mb-0">
                 <Container className="text-center">
                     <div className="p-md-5">
@@ -40,7 +40,7 @@ function Contact() {
                     </Row>
                 </Container>
             </Container>
-        </>
+        </div>
     )
 }
 

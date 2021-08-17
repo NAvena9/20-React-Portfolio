@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
     return (
-        <>
+        <div>
             <Navbar collapseOnSelect expand="lg" className="bg-light shadow">
                 <LinkContainer to="/about">
                     <Navbar.Brand>Nicolas Cedano Avena</Navbar.Brand>
@@ -32,7 +32,7 @@ function Header() {
                     <ContactIcons></ContactIcons>
                 </Navbar.Collapse>
             </Navbar>
-        </>
+        </div>
     )
 }
 

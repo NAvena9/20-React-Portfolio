@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import NoMatch from './pages/NoMatch';
 //Styles
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-typist/dist/Typist.css';
 import './App.css';
 
@@ -23,7 +23,6 @@ function App(){
         <Header/>
         <main>
           <Switch>
-            <Route exact path="/" component={Terminal} />
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/resume" component={Resume} />

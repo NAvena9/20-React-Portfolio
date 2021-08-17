@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 function About() {
     return (
-        <>
+        <div>
             <Jumbotron fluid className="mb-0">
                 <Container>
                     <Row>
@@ -45,7 +45,7 @@ function About() {
                     </p>
                 </Container>
             </Container>
-        </>
+        </div>
     )
 }
 
