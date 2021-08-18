@@ -8,7 +8,6 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
 import NoMatch from './pages/NoMatch';
 //Styles
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,7 +17,6 @@ import './App.css';
 function App(){
   return (
     <Router>
-      <ScrollToTop />
       <div className="App">
         <Header/>
         <main>

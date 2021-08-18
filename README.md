@@ -62,22 +62,9 @@ The following image shows the web application's appearance :
 
 
 
-
-
-
 ## URL of deployment
 
 Link: <a href="https://navena9.github.io/15-Profile-Update/" target="_blank">Personal Portfolio</a>
-
-
-
-## Technologies
-
-* HTML
-* CSS
-* JavaScript
-* jQuery
-* Bootstrap
 
 
 

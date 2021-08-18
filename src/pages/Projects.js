@@ -1,12 +1,9 @@
 import React from 'react';
-
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Project from '../components/Project';
-
-
 import SchoolImage from '../Assets/images/school.png';
 import weatherAppImage from '../Assets/images/weather.png';
 import ProjectOneImage from '../Assets/images/project.png';
