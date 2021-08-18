@@ -52,19 +52,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 
-
-## Mock-Up
-
-The following image shows the web application's appearance :
-
-![portfolio demo](./images/deployed.png)
-
-
-
-
 ## URL of deployment
 
-Link: <a href="https://navena9.github.io/15-Profile-Update/" target="_blank">Personal Portfolio</a>
+Link: <a href="https://navena9.github.io/20-React-Portfolio/" target="_blank"> React Portfolio</a>
 
 
 
