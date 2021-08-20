@@ -1,13 +1,11 @@
 import React from 'react';
-
-// import react-bootstrap components
-import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function About() {
+const About = () => {
     return (
         <div>
             <Jumbotron fluid className="mb-0">
@@ -15,7 +13,7 @@ function About() {
                     <Row>
                         <Col sm={12} md={6} lg={4} className="justify-content-center">
                             <Image
-                                src={require("../Assets/images/nico.jpeg")}
+                                src={ require("../Assets/images/nico.jpeg").default}
                                 roundedCircle
                                 width="280vw"
                                 height="280vw" />

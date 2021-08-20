@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 //my reusable react components
 import Header from './components/Header';
+import Footer from './components/Footer';
 import About from './pages/About';
-import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import Footer from './components/Footer';
 import NoMatch from './pages/NoMatch';
+import Projects from './pages/Projects';
 //style componentes
 import './App.css';
 import 'react-typist/dist/Typist.css';

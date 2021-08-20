@@ -24,7 +24,7 @@ const Resume = () => {
             <Container className="p-3 ">
                 <Row>
                 <Col sm={12} md={6} lg={4} className="justify-content-center">
-                            <Image src={require("../Assets/images/cv.jpeg")}
+                            <Image src={ require("../Assets/images/cv.jpeg").default }
                                 width="400vw"
                                 height="400vw" />
                         </Col>
