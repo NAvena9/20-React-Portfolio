@@ -1,7 +1,6 @@
-
 import React from 'react';
 
-function ContactIcons() {
+const Icons = () => {
     const contactLinks = [
         {
             "name": "email",
@@ -42,4 +41,4 @@ function ContactIcons() {
     )
 }
 
-export default ContactIcons;
+export default Icons;

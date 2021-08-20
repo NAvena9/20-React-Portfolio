@@ -1,8 +1,7 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap'
-
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 const NoMatch = () => {
@@ -11,7 +10,7 @@ const NoMatch = () => {
             <Card>
                 <Card.Body className="text-center m-5">
                     <Card.Title>
-                        <h2>404, the page doesn't exist.</h2>
+                        <h2>Error, the page doesn't exist.</h2>
                     </Card.Title>
                     <Card.Text className="mt-5">
                         <LinkContainer to="/about">

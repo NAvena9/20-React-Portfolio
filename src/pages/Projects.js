@@ -1,9 +1,10 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Project from '../components/Portfolio';
 import Col from 'react-bootstrap/Col';
-import Project from '../components/Project';
+import Row from 'react-bootstrap/Row';
+
 import SchoolImage from '../Assets/images/school.png';
 import weatherAppImage from '../Assets/images/weather.png';
 import ProjectOneImage from '../Assets/images/project.png';
@@ -11,7 +12,7 @@ import SchedulerImage from '../Assets/images/scheduler.png';
 import QuizImage from '../Assets/images/quiz.png';
 import PasswordGeneratorImage from '../Assets/images/pass_generator.png';
 
-function Projects() {
+const Portfolio = () => {
     const projects = [
         {
             "title": "School System Portal",
@@ -78,8 +79,7 @@ function Projects() {
                         return (
                             <Col s={12} lg={6} key={project.key}>
                                 <Project project={project} />
-                            </Col>
-                        )
+                            </Col> )
                     })}
                 </Row>
             </Container>
@@ -87,4 +87,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default Portfolio;

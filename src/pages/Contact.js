@@ -1,20 +1,18 @@
 import React from 'react';
-
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
-import ContactForm from '../components/ContactForm';
+import ContactForm from '../components/Form';
 
 //Defining the Contact Form Component
-function Contact() {
+const Contact = () => {
     return (
         <div>
             <Jumbotron fluid className="p-5 mb-0">
                 <Container className="text-center">
                     <div className="p-md-5">
-                        <h1>Contact</h1>
+                        <h1> Contact Info 📮</h1>
                     </div>
                 </Container>
             </Jumbotron>
@@ -24,15 +22,14 @@ function Contact() {
                     <Row>
                         <Col>
                             <Container>
-                                <h4>Contact Info</h4>
-                                <p><span><i className="far fa-envelope pr-3"></i></span>nicolas.cedano.avena@gmail.com</p>
+                                <h4>also on: </h4>
                                 <p><span><i className="fab fa-github pr-3"></i></span> NAvena9</p>
-                                <p><span><i className="fab fa-linkedin pr-3"></i></span> Nicolas Cedano Avena</p>
+                                <p><span><i className="fab fa-linkedin pr-3"></i></span> Nicolas Avena</p>
                             </Container>
                         </Col>
                         <Col sm={12} md={6} lg={8} className="pt-sm-4 pt-lg-0">
                             <Container>
-                                <h4>Send a Message</h4>
+                                <h4>Send me a message 📧 </h4>
                                 <ContactForm />
                             </Container>
                         </Col>

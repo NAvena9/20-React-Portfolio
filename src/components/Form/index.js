@@ -1,27 +1,29 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { validateEmail } from '../../utils/helpers';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { validateEmail } from '../../utils/helpers';
+
+
 
 //Contact Form Component Defined
-function ContactForm() {
+const ContactForm = () => {
     const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: '' });
     const [formMessage, setFormMessage] = useState('');
 
-    // Handler
+    // Handler 
     function handleChange(e) {
         if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            if (!isValid) {
+            const validated = validateEmail(e.target.value);
+            if (!validated) {
                 setFormMessage('Your email is invalid.');
             } else {
-                setFormMessage('');
+                setFormMessage(''); //this first comparison block checks for an email as event, then validates it as an actual email
             }
         } else {
             if (!e.target.value.length) {
                 const name = e.target.name;
-                setFormMessage(`${name.charAt(0).toUpperCase() + name.slice(1)} is required.`);
+                setFormMessage(`${name.charAt(0).toUpperCase() + name.slice(1)}`); //capitalizing the first letter of
             } else {
                 setFormMessage('');
             }
@@ -32,23 +34,22 @@ function ContactForm() {
         }
     }
 
-    //Setting upg email function
-    function sendEmail(e) {
+    //Setting upg email function (the code is provided in emails.com)
+    const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('gmail', 'template_y91kvra', '#contactForm', 'user_OY02r5T8KPqVR1frBk330')
-            .then(function (response) {
-                console.log(response.text);
-            //it will send the message or an error in case of not possible
+        emailjs.sendForm('gmail', 'template_x7dv62f', '#contactForm', 'user_9mYLL37Eg4rdWbfJGSlI7')
+            .then((result) => {
+                console.log(result.text);
                 setFormMessage("Message sent!");
-            }, function (error) {
+            },  (error) => {
                 console.log(error.text);
-                setFormMessage("Your message couldn't be sent. Please email Nicolas directly nicolas.cedano.avena@gmail.com");
+                setFormMessage("Your message couldn't be sent");
             });
     }
 
+//cambiar los id
     return (
-        <Form onSubmit={sendEmail} id="contactForm">
+        <Form onSubmit={sendEmail} id="contactForm"> 
             <Form.Group controlId="name">
                 <Form.Label>Name</Form.Label>
                 <Form.Control required name="name" placeholder="Input your name" onBlur={handleChange} />

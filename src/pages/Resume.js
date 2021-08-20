@@ -1,12 +1,15 @@
 import React from 'react';
-
-// import react-bootstrap components
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
 
 
-function Resume() {
+
+
+const Resume = () => {
     return (
         <div>
             <Jumbotron fluid className="p-5 mb-0 shadow">
@@ -16,6 +19,19 @@ function Resume() {
                     </div>
                 </Container>
             </Jumbotron>
+
+
+            <Container className="p-3 ">
+                <Row>
+                <Col sm={12} md={6} lg={4} className="justify-content-center">
+                            <Image src={require("../Assets/images/cv.jpeg")}
+                                width="400vw"
+                                height="400vw" />
+                        </Col>
+                </Row>
+            </Container>
+
+
 
             <Container className="py-5 d-flex flex-column flex-md-row justify-content-center align-items-center">
                 <Button

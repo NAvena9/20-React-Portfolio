@@ -1,12 +1,12 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap'
-import ContactIcons from '../ContactIcons'
-//Bootstrap Import
-import Nav from 'react-bootstrap/Nav';
+import Icons from '../Icons'
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 
-function Header() {
+
+const Header = () => {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" className="bg-light shadow">
@@ -14,7 +14,7 @@ function Header() {
                     <Navbar.Brand>Nicolas Cedano Avena</Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                {/* <Navbar.Collapse id="basic-navbar-nav"> */}
                     <Nav className="mr-auto">
                         <LinkContainer to="/about">
                             <Nav.Link>About Me</Nav.Link>
@@ -29,8 +29,8 @@ function Header() {
                             <Nav.Link>Contact</Nav.Link>
                         </LinkContainer>
                     </Nav>
-                    <ContactIcons></ContactIcons>
-                </Navbar.Collapse>
+                    <Icons></Icons>
+                {/* </Navbar.Collapse> */}
             </Navbar>
         </div>
     )

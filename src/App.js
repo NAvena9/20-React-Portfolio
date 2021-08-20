@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-//Custom Components
+//my reusable react components
 import Header from './components/Header';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -9,12 +8,13 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Footer from './components/Footer';
 import NoMatch from './pages/NoMatch';
-//Styles
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-typist/dist/Typist.css';
+//style componentes
 import './App.css';
+import 'react-typist/dist/Typist.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App(){
+
+const App = () =>{
   return (
     <Router>
       <div className="App">

@@ -1,5 +1,6 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card'; //Importing a component from Bootstrap
+import Card from 'react-bootstrap/Card';
+
 
 
 function Project({ project }) {

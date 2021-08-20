@@ -15,7 +15,7 @@ function About() {
                     <Row>
                         <Col sm={12} md={6} lg={4} className="justify-content-center">
                             <Image
-                                src={require("../Assets/images/NAvena-Profile.jpeg")}
+                                src={require("../Assets/images/nico.jpeg")}
                                 roundedCircle
                                 width="280vw"
                                 height="280vw" />
